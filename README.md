@@ -1,17 +1,39 @@
 # predictive-analytics
 ## 🚀 Overview
-This project leverages predictive analytics and machine learning to optimize resource scaling in DevOps environments. By forecasting system metrics (like CPU, memory, and traffic), the system can proactively scale cloud infrastructure, reduce costs, and improve performance and reliability.
-
-## 🧠 Motivation
-Traditional auto-scaling reacts to metrics after thresholds are breached, often leading to latency or outages. This project aims to predict resource needs ahead of time and automate scaling decisions using those forecasts—bringing intelligence into infrastructure management.
-
+This project applies predictive analytics and machine learning to enable intelligent resource scaling in a DevOps environment.
+By forecasting system metrics like CPU, memory, and disk usage, the system allows proactive scaling of infrastructure resources, improving performance and reducing unnecessary costs.ling of infrastructure.
+This helps reduce operational costs, prevent system overloads, and maintain optimal performance under varying workloads.
 
 
-## Tool/Framework
-Prometheus, CloudWatch
-InfluxDB, TimescaleDB
-Python (pandas, scikit-learn, TensorFlow, Prophet)
-Jenkins, GitLab CI, ArgoCD
-Kubernetes, Terraform, AWS ASG
-Grafana, Kibana
+##🧠 Motivation
+
+Conventional auto-scaling mechanisms react after thresholds are breached, often causing latency spikes or resource bottlenecks.
+This project introduces a predictive layer that anticipates resource demands and scales systems before performance degradation occurs — enabling a smarter and more cost-efficient DevOps environment.
+
+
+## 🧰 Tools & Frameworks
+Category	- Tools/Frameworks
+Monitoring -	Prometheus
+Machine Learning -	Python (pandas, scikit-learn, Prophet)
+Backend - / API	Flask
+Visualization	- Grafana
+Containerization -	Docker
+
+##🖥️ Setup & Usage
+1️⃣ path to the repository
+cd predictive-analytics-resource-scaling
+
+2️⃣ Start Docker containers
+docker-compose up -d
+
+3️⃣ Run the Flask app
+python app/app.py
+
+4️⃣ View dashboards
+
+Grafana: http://localhost:3000
+
+Prometheus: http://localhost:9090
+
+Flask App: http://localhost:5000
 
