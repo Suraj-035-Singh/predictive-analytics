@@ -30,5 +30,4 @@ docker-compose up -d
 python app/app.py
 
 
-Flask App: http://localhost:5000
 
