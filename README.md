@@ -29,11 +29,6 @@ docker-compose up -d
 3️⃣ Run the Flask app
 python app/app.py
 
-4️⃣ View dashboards
-
-Grafana: http://localhost:3000
-
-Prometheus: http://localhost:9090
 
 Flask App: http://localhost:5000
 
